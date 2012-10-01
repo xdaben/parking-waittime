@@ -11,6 +11,9 @@ package Prototype;
 
 import java.awt.Color;
 import java.awt.Polygon;
+import java.awt.color.ColorSpace;
+
+import javax.swing.text.AttributeSet.ColorAttribute;
 
 
 public class ParkingLot extends Polygon
@@ -33,13 +36,17 @@ public class ParkingLot extends Polygon
 	private void updateLotColor()
 	{
 		if(waitTime <= 2.0)
-			lotColor = Color.GREEN;
+			//lotColor = Color.GREEN;
+			lotColor = new Color(0,255,0,180);
 		else if(waitTime > 2.0 && waitTime <= 4.0)
-			lotColor = Color.YELLOW;
+			//lotColor = Color.YELLOW;
+			lotColor = new Color(255,255,0,180);
 		else if(waitTime > 4.0 && waitTime <= 6.0)
-			lotColor = Color.ORANGE;
+			//lotColor = Color.ORANGE;
+			lotColor = new Color(255,165,0,180);
 		else
-			lotColor = Color.RED;
+			//lotColor = Color.RED;
+			lotColor = new Color(255,0,0,180);
 	}
 	
 	public Color getLotColor()
