@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2012-10-04" view-index="1" gantt-divider-location="353" resource-divider-location="300" version="2.0">
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2012-10-04" view-index="0" gantt-divider-location="344" resource-divider-location="300" version="2.0">
     <description/>
     <view zooming-state="default:2" id="gantt-chart"/>
     <view id="resource-table">
-        <field id="0" name="Name" width="70" order="0"/>
-        <field id="1" name="Default role" width="29" order="1"/>
+        <field id="0" name="Name" width="56" order="0"/>
+        <field id="1" name="Default role" width="43" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -32,7 +32,14 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="task_0" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="0" name="Create simulated Vehicle" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="6" name="Create simlated vehicle postions for route selection" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="1" name="Create parking lot display representations" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="2" name="Search time accumulation method" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="3" name="Implement lot color changing logic" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="4" name="Method to generate wait time" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="5" name="Wait time display window" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
+        <task id="7" name="Create route display" color="#8cb6ce" meeting="false" start="2012-10-04" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Keaton" function="SoftwareDevelopment:2" contacts="" phone=""/>
@@ -48,9 +55,9 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="199" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="75" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="75" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="194" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="73" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="73" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
